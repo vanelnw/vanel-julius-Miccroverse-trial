@@ -26,6 +26,7 @@
           >
         </div>
       </nav>
+
       <section class="main-section" id="introduction">
         <header>introduction</header>
         <p>
@@ -104,6 +105,24 @@
           "z" (lowercase).
         </p>
         <h3>Declaring variables</h3>
+        <p>
+          You can declare a variable in three ways: \n With the keyword var. For
+          example,
+        </p>
+        <code>
+          <p>var x = 42.</p>
+        </code>
+        <p>By simply assigning it a value. For example,</p>
+        <code>
+          <p>x = 42.</p>
+        </code>
+        <p>
+          This always declares a global variable. It generates a strict
+          JavaScript warning. You shouldn't use this variant.
+        </p>
+        <code>
+          <p>let y = 13.</p>
+        </code>
       </section>
       <section class="main-section" id="Function_declarations">
         <header>Function declarations</header>
@@ -122,6 +141,17 @@
             curly brackets, { }.
           </li>
         </ol>
+        <p>
+          For example, the following code defines a simple function named
+          square:
+        </p>
+        <code>function square(number) { return number * number; }</code>
+        <code>
+          <p>function greetMe(yourName) {</p>
+          <p>&emsp;alert("Hello " + yourName);</p>
+          <p>}</p>
+          <p>greetMe("World");</p>
+        </code>
         <p>
           The function square takes one argument, called number. The function
           consists of one statement that says to return the argument of the

@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: gray;
 }
 
 #navbar {
@@ -24,4 +25,10 @@ body {
 
 .main-section {
   margin-left: 200px;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
 }
